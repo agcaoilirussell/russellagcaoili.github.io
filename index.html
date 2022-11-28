@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+	<div class="scroll-button">
+		<a href="#"><i class="fas fa-arrow-up"></i></a>
+	 </div>
+	
+	
+	<!----hero Section start---->
+
+
+	<div class="hero">
+		<nav>
+			
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#project">Projects</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+			</ul>
+			
+			<a href="#" class="btn">Subscribe</a>
+			
+		</nav>
+	
+
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Russell <span>Agcaoili	</span></h1>
+			<h3>I'm an aspiring Web Developer and Programmer.</h3>
+
+		</div>
+		
+	</div>
+	
+	<!----About section start---->
+	<section class="about" id="about">
+		<div class="main">
+			<img src="img/file.jpg">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>Yow! I am Russell Dalangin Agcaoili. I am currently in my 3rd year, studying BS Information Technology. An aspiring programmer/developer who wants to be competent enough after finishing college. I'm not going to lie, I'm not particularly skilled, but I'm always eager to learn and grow in order to achieve my objectives in this field. I am very intrigued and curious about being a web developer and network engineer. Yeah, that's it! I hope we can work together.</p>
+
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
+
+
+	<!----Education section start---->
+	<section class="education" id="education">
+        
+			<div class="main">
+            <h1> WHAT DID I STUDY? <span> "MY EDUCATION"</span></h1>
+			
+		
+          </div>
+          <div class="main">     
+          <img src="./img/educ atttain.PNG" alt="" />
+           </div>
+        </div>
+      </section>
+
+	<!-----project section start----------->
+	<div class="project" id="project">
+		<div class="main">
+			<h2>My Projects</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fa fa-music"></i>
+				<h5>MUSIC SHOP PAGE</h5>
+				<div class="pra">
+					<p>An established page that offers a well-respected music lesson 
+						 We aim a fully responsive web page that targets the 
+						music enthusiast to satisfy their musical needs.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="http://www.analogr.com/?gclid=Cj0KCQiAyMKbBhD1ARIsANs7rEGy15CrfM5Ij2XuUEQGQLrN_lVigBVXT20_XkS8No7JPh-c2MdB9OkaAoqfEALw_wcB">Visit</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa fa-envelope-open"></i>
+				<h5>Survey Form</h5>
+				<div class="pra">
+					<p>An online survey forms that can be managed to get precise data on the web and guarantee user safety by ensuring them all information will be confidential.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href=" https://agcaoilirussell.github.io/surveyformrda.github.io/">Visit</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa fa-camera"></i>
+				<h5>Photo-Sharing Website</h5>
+				<div class="pra">
+					<p>A website for photography that will showcase users' skills. Additionally, it is an effective marketing tool that makes it simple for clients to find and get in touch with one another.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://www.smugmug.com/"> Visit</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<div class="contact-me" id="contact">
+		<p>Let Me Get You A Beautiful Website.</p>
+		<a class="button-two" href="https://www.facebook.com/agcaoilirussell">Let's work together!</a>
+	</div>
+
+<script src="main.js"></script>
+	<!------footer start--------->
+	<footer>
+		<p></p>
+		<p>SOCIALS</p>
+		<div class="social">
+			<a href="https://www.facebook.com/agcaoilirussell"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/rsslldagcaoili/"><i class="fab fa-instagram"></i></a>
+			<a href="https://github.com/agcaoilirussell"><i class="fab fa-github"></i></a>
+		</div>
+		<p class="end">CopyRight By Agcaoili Russell</p>
+	</footer>
+
+	<!------ Link to js ----->
+	<script type="text/javascript" src="js/script.js"></script>
+	<script>
+		let nav = document.querySelector("nav");
+let scrollBtn = document.querySelector(".scroll-button a");
+console.log(scrollBtn);
+let val;
+window.onscroll = function() {
+  if(document.documentElement.scrollTop > 20){
+    nav.classList.add("sticky");
+    scrollBtn.style.display = "block";
+  }else{
+    nav.classList.remove("sticky");
+    scrollBtn.style.display = "none";
+  }
+}
+	</script>
+</body>
+</html>
